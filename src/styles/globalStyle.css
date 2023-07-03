@@ -1,0 +1,54 @@
+:root {   
+    --brand-1: #8B65BF;
+    --brand-2: #BFADD9;
+    --brand-3: #262626;
+    --brand-4: #8C8C8C;
+    --brand-5: #F2F2F2;
+    --black: #000000;
+    --white: #FFFFFF;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--brand-3);
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+    margin-top: 200px;
+}
+
+p {
+    font-size: 16px;
+    color: var(--brand-5);
+}
+
+h1 {
+    font-size: 32px;
+    color: var(--brand-5);
+}
+
+h2 {
+    font-size: 24px;
+    color: var(--brand-5);
+}
+
+h3 {
+    font-size: 20px;
+    color: var(--brand-5);
+}
+
+h4 {
+    font-size: 18px;
+    color: var(--brand-5);
+}
+
+h5 {
+    font-size: 16px;
+    color: var(--brand-5);
+}

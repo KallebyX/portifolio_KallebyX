@@ -1,0 +1,98 @@
+.boxPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.box_projeto {
+    display: grid;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: flex-start;
+    margin-top: -40px;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+  
+#titulo_apresentacao {
+    font-size: 28px;
+}
+  
+#img_apresentacao {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+  
+.secao_principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 40px;
+}
+
+#paragrafo_box {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    text-align: flex-start;
+    width: 400px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+  
+.desenvolvimento_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+  
+#titulo_box {
+    font-size: 24px;
+}
+  
+#img_box {
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.mais_box {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-top: 40px;
+}

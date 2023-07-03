@@ -1,0 +1,57 @@
+.secao_projetos {
+    display: grid;
+    gap: 20px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+#projetos_titulo {
+    font-size: 28px;
+    text-align: center;
+}
+
+.box_projeto {
+    display: grid;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    width: 850px;
+}
+
+.titulo_projeto {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    justify-content: flex-start;
+}
+
+#p_projeto {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 18px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.link_projeto a {
+    color: var(--brand-1);
+    text-decoration: underline;
+}
+
+.img_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    gap: 25px;
+}
+
+.img_projeto {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}

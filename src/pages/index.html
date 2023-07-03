@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+
+    
+    <link rel="stylesheet" href="/src/styles/home.css">
+    <link rel="stylesheet" href="/src/styles/globalStyle.css">
+    <link rel="stylesheet" href="/src/styles/modal.css">
+    <link rel="stylesheet" href="/src/styles/header.css">
+    <link rel="stylesheet" href="/src/styles/projetos.css">
+    <link rel="stylesheet" href="/src/styles/footer.css">
+    <link rel="stylesheet" href="/src/styles/reset.css">
+
+    <script src="/src/scripts/buttons.js" defer></script>
+    <script src="/src/scripts/modal.js" defer></script>
+    <script src="/src/scripts/email.js"></script>
+
+</head>
+<body>
+    <header class="top">
+        <h1 class="top_h1">Kalleby Evangelho Mota</h1>
+        <div class="buttons">
+            <button class="button" id="home_button">Home</button>
+            <button class="button" id="projetos_button">Projetos</button>
+            <button class="button" id="contato_button">Entre em contato</button>
+            <button class="button" id="fale_button" onclick="abrirWhatsApp()">WhatsApp</button>
+        </div>  
+    </header>
+    <main>
+        <section class="principal">
+            <div class="boxPrincipal">
+                <section class="apresentaacao">
+                    <div class="eu">
+                        <div class="image_box">
+                            <img id="img_apresentacao" src="/src/img/IMG_9793.jpeg" alt="dev front-end">
+                        </div> 
+                        <h2 id="titulo_apresentacao">Desenvolvimento front-end</h2>
+                        <p id="p_apresentacao">Olá, sou Kalleby, Desenvolvedor Freelancer em Front-end com experiencia em varios projetos, conheça minha experiencia</p>                                               
+                    </div>
+                </section>
+            </div>
+            <section class="secao_principal">
+                <div class="box">
+                    <h3 id="titulo_box">Desenvolvimento de sites</h3>
+                    <p id="paragrafo_box">Desenvolvimento completo de suas aplicações Web, com otimização para melhor experiencia do usuario</p>
+                    <img id="img_box" src="/src/img/CODIGO_DE_PROGRAMACAO_1-1-1-1024x538.png.webp" alt="manutencao">
+                </div>
+                <div class="box">
+                    <h3 id="titulo_box">Manutenção em WebSites</h3>
+                    <p id="paragrafo_box">Manutenção em WebSite, atualizando ele e melhorando a experiencia, assim como a resolução de bugs, e adição de novas features</p>
+                    <img id="img_box" src="/src/img/codigo-de-criacao-do-painel-de-programacao-manutencao-de-suporte-do-site_27634-1286.avif" alt="personalizado">
+                </div>
+                <div class="box">
+                <h3 id="titulo_box">Não encontrou o que precisa?</h3>
+                <p id="paragrafo_box">Não tem problema, entre em contato comigo para achar a melhor solução para você</p>
+                <img id="img_box" src="/src/img/GUIA-INTRODUÇÃO-PROGRAMAÇÃO.png" alt="mais">
+                </div>        
+            </section>
+        </section>
+        <hr id="divisao">
+        <section class="secao_projetos">
+            <h2 id="projetos_titulo">Alguns Projetos</h2>
+            <div class="box_projeto">
+                <h3 class="titulo_projeto">Control Finance</h3>
+                <p class="p_projeto">Aplicação para controle de finanças, com cadastro de receitas e despesas, e relatorios com valores gastos, entrada e saida</p>
+                <p class="link_projeto"><a href="https://kenzie-academy-brasil-developers.github.io/Kenzie-Academy-Brasil-Developers-control-finance-KallebyX/">Veja a pagina AQUI</a></p>
+                <div class="img_container">
+                    <img class="img_projeto" alt="" src="/src/img/Captura de Tela (5).png">
+                </div>
+            </div>
+            <div class="box_projeto">
+                <h3 class="titulo_projeto">PetInfo</h3>
+                <p class="p_projeto">Petinfo, um ambiente com informações em formato de blog sobre cuidados gerais com animais domésticos, como dicas, eventos e curiosidades. Basicamente o usuário poderá acessar esses conteúdos ao se cadastrar na plataforma e fazer seu login.</p>
+                <p class="link_projeto"><a href="https://kenzie-academy-brasil-developers.github.io/Kenzie-Academy-Brasil-Developers-control-finance-KallebyX/">Veja a pagina AQUI</a></p>
+                <div class="img_container">
+                    <img class="img_projeto" alt="" src="/src/img/Captura de Tela (6).png">
+                </div>
+            </div>
+            <div class="box_projeto">
+                <h3 class="titulo_projeto" >Open music</h3>
+                <p class="p_projeto">Aplicação com finalidade de venda de discos chamada "Open Music".</p>
+                <p class="link_projeto"><a href="https://kenzie-academy-brasil-developers.github.io/https-github.com-Kenzie-Academy-Brasil-Developers-open-music-base-KallebyX/">Veja a pagina AQUI</a></p>
+                <div class="img_container">
+                    <img class="img_projeto" alt="" src="/src/img/Captura de Tela (2).png">
+                </div>  
+            </div>
+        </section>
+        <hr>
+        <footer>
+            <div>
+                
+            </div>
+            <div class="sobre_footer">
+                <img class="img_eu" src="/src/img/IMG_8609.jpeg" alt="eu">
+                <p class="p_foot">Olá, Sou Kalleby, Desenvolvedor front-end, com experiencia em projetos e freelancer, tenho como formação o curso: Desenvolvivento web fullstack da Kenzie academy, com mais de 2000hr, alem de diversos cursos livres, alem disso estou cursando Ciencia da computação na Universidade Fransiscana (UFN)</p>
+            </div>
+            <div class="box_footer">
+                <div class="redes">
+                    <h3 class="h3a">Redes Sociais</h3>
+                    <div class="rede_box">
+                        <h4 class="rede_titulo">Linkedinl</h4>
+                        <p class="rede_p">Conheça mais sobre mim no Linkedinl clicando <a href="https://www.linkedin.com/in/kalleby-evangelho/">AQUI</a></p>
+                    </div>
+                    <div class="rede_box">
+                        <h4 class="rede_titulo">Github</h4>
+                        <p class="rede_p">Conheca meus projetos no GITHUB Clicando <a href="https://github.com/KallebyX">AQUI</a> </p>
+                    </div>
+                </div>
+                <div class="contato">
+                    <h3 class="h3b">Formas de contato:</h3>
+                    <div class="box_redes__contato">
+                        <div class="email">
+                            <h4 class="titulo_contato">Email</h4>
+                            <p class="p_contato">Entre em contato comigo pelo meu email: <br> kallebyevangelho03@gmail.com
+                        </div>
+                        <div class="telefone">
+                            <h4 class="titulo_contato">Telefone</h4>
+                            <p class="p_contato"></p>Entre em contato comigo pelo telefone: <br> (55) 991255935</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="copyrigth">
+            <p class="copyrigth_texto">Copyrigth 2023 Kalleby Evangelho Mota</p>
+        </div>
+        <div class="cnpj_box">
+            <p class="cnpj">49.549.704/0001-07</p>
+        </div>
+    </main>
+    <div id="modal_container">
+        <div id="modal_content">
+            <div class="nav_modal">
+                <h1 class="modal_title">Entre em contato</h1>
+                <button class="close_modal_button">X</button>
+            </div>
+          <form name="modal_form" action="https://formspree.io/f/mrgwzvan" method="POST">
+            <div class="formulario">
+                <div class="form_box">
+                    <label id="label" for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome..." required="required" name="nome" />
+                </div>
+                <div class="form_box">
+                    <label id="label" for="telefone">Fone:</label>
+                    <input type="tel" id="telefone" placeholder="Digite um telefone para contato"  name="fone" />    
+                </div>
+                <div class="form_box">
+                    <label id="label" for="_replyto">Email:</label>
+                    <input type="email" id="email" placeholder="Digite seu Email" name="_replyto" />
+                </div>
+                <div class="form_box">
+                    <label id="label" for="textarea">Mensagem:</label>
+                    <textarea name="textarea" id="textarea" placeholder="Escreva seu texto aqui..."></textarea>
+                </div>
+            </div>
+            <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+          </form>
+        </div>
+      </div>
+</body>
+</html>
